@@ -5,3 +5,10 @@
 .btn-gradient-green{
   @apply bg-gradient-to-r from-green-900 to-green-100 transform hover:scale-110 md:transition md:ease-out md:duration-500 hover:bg-opacity-50 text-white font-bold py-2 px-4 rounded-lg cursor-pointer tracking-wider
 }
+
+.custom-popup .mapboxgl-popup-content {
+  @apply rounded-full border-2 border-green-300 hover:bg-opacity-50 font-bold py-2 px-4 tracking-wider;
+}
+.custom-popup .mapboxgl-popup-tip {
+  @apply border-2 border-green-300;
+}
