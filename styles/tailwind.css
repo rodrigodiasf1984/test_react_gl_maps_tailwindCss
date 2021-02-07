@@ -12,3 +12,8 @@
 .custom-popup .mapboxgl-popup-tip {
   @apply border-2 border-green-300;
 }
+
+.point {
+  @apply flex bg-green-600 rounded-full text-center items-center justify-center text-white m-auto;
+}
+
