@@ -8,8 +8,12 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
-        <Head />
+      <Html lang="pt-br">
+        <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="canonical" href=""/>
+          <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.css' rel='stylesheet' />
+        </Head>
         <body>
           <Main />
           <NextScript />
