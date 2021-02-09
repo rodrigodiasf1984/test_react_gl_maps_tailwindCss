@@ -36,7 +36,11 @@
     "react/jsx-props-no-spreading": "off",
     "no-use-before-define": "off",
     "prettier/prettier": "error",
+    "react/prop-types":"off",
     "camelcase": "off",
+    "no-console": "off",
+    "@typescript-eslint/camelcase": "off",
+    "react/jsx-curly-newline":"off",
     "import/extensions": [
       "error",
       "ignorePackages",
