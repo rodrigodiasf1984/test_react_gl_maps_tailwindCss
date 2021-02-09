@@ -8,8 +8,7 @@
     "start": "next start",
     "deploy": "yarn build && yarn export",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx",
-    "type-check": "tsc",
-    "postbuild": "next-on-netlify"
+    "type-check": "tsc"
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",
