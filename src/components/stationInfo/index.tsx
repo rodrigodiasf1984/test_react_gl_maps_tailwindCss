@@ -1,17 +1,24 @@
-import React,{memo} from 'react';
+import React, { memo } from 'react';
+import { InfoProps } from '@/types';
 
-function StationInfo({info}) {
-  // console.log(info, 'alkndfknasdéklnf222')
-  const {properties} =info;
+interface StationInfoProps {
+  info: InfoProps;
+}
 
-  const displayInfo = `City: ${properties.city}, Country: ${ properties.country}`;
+const StationInfo: React.FC<StationInfoProps> = ({ info }) => {
+  const displayInfo = `Station: ${info.properties.name}`;
   return (
-    <div>
-      <span>{displayInfo}</span>
-      <span className="flex justify-center">{properties.name}</span>
-
+    <div className="flex flex-col text-center px-4 m-auto">
+      <h6>{displayInfo}</h6>
+      <span className="flex justify-center">
+        Adress:&nbsp;
+        {info.properties.address}
+        <br />
+        Free_Bikes:
+        {info.properties.free_bikes}
+      </span>
     </div>
   );
-}
+};
 
 export default memo(StationInfo);
