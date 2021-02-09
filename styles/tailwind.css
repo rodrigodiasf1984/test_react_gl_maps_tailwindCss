@@ -2,18 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-gradient-green{
+.btn-gradient-green {
   @apply bg-gradient-to-r from-green-900 to-green-100 transform hover:scale-110 md:transition md:ease-out md:duration-500 hover:bg-opacity-50 text-white font-bold py-2 px-4 rounded-lg cursor-pointer tracking-wider
 }
 
 .custom-popup .mapboxgl-popup-content {
   @apply rounded-full border-2 border-green-300 hover:bg-opacity-50 font-bold py-2 px-4 tracking-wider;
 }
+
 .custom-popup .mapboxgl-popup-tip {
   @apply border-2 border-green-300;
 }
 
 .point {
-  @apply flex bg-green-600 rounded-full text-center items-center justify-center text-white m-auto;
+  @apply flex rounded-full text-center items-center justify-center text-white m-auto;
 }
 
+.btn-network {
+  @apply absolute right-10 top-5 h-10 w-32 bg-yellow-200 hover:bg-yellow-100 transition ease-out duration-500 flex items-center justify-center rounded-full;
+}
