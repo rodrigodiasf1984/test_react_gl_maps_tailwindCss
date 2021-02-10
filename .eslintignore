@@ -1,5 +1,5 @@
-/*.js
+**/*.js
 node_modules
-dist
-.next
-next-env.d.ts
+build
+/src/react-app-env.d.ts
+/src/reportWebVitals.ts
