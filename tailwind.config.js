@@ -1,5 +1,7 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: {
+    enabled: false,
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -10,9 +12,9 @@ module.exports = {
         yellow:{
           light:'#eee6d4fe'
         }
-      }, 
+      },
       backgroundImage:{
-        'bike_sharing': "url('/img/bike_sharing_bg_white.png')", 
+        'bike_sharing': "url('/img/bike_sharing_bg_white.png')",
       }
     },
   },
