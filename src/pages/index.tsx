@@ -5,19 +5,19 @@ const Home: React.FC = () => {
     <div className="flex justify-center items-center w-screen h-screen bg-gradient-to-b from-green-600 to-green-50">
       <div
         style={{ backgroundPosition: '80% center' }}
-        className="w-full max-w-screen-xl h-full max-h-680px flex flex-col justify-between items-start relative bg-bike_sharing bg-contain bg-no-repeat bg-custom"
+        className="mb-10 md:mb-0 px-4 w-full max-w-screen-xl h-full max-h-680px flex flex-col justify-between items-start relative bg-bike_sharing bg-contain bg-no-repeat bg-custom"
       >
         <div className="max-w-xs flex flex-row items-center h-40 w-40">
           <img src="/img/bike.png" alt="Bike" />
-          <span className="mt-14 text-4xl font-bold font-Roboto text-yellow-light">
+          <span className="mt-14 text-xl md:text-4xl font-bold font-Roboto text-yellow-light">
             Bike sharing
           </span>
         </div>
-        <main className="max-w-xs">
-          <h1 className="text-7xl font-bold font-Roboto  text-green-700">
+        <main className="max-w-xs px-4 mb-14">
+          <h1 className="text-2xl md:text-7xl font-bold font-Roboto  text-green-700">
             Convenient & Simple
           </h1>
-          <p className="mt-10 text-3xl font-Roboto text-green-700">
+          <p className="mt-2 md:mt-10 text-xl  md:text-3xl font-Roboto text-green-700">
             Find an station, unlock the bike and ride.
           </p>
         </main>
