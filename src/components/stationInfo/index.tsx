@@ -8,7 +8,7 @@ interface StationInfoProps {
 const StationInfo: React.FC<StationInfoProps> = ({ info }) => {
   const displayInfo = `Station: ${info.properties.name}`;
   return (
-    <div className="flex flex-col text-center px-4 m-auto">
+    <div className="flex flex-col justify-center items-center text-xs text-center px-4 m-auto">
       <h6>{displayInfo}</h6>
       <span className="flex justify-center">
         Adress:&nbsp;
